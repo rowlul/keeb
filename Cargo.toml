@@ -1,0 +1,18 @@
+[package]
+name = "keeb"
+version = "0.1.0"
+description = "Minimalist click simulation tool"
+edition = "2021"
+authors = ["rowlul <96617295+rowlul@users.noreply.github.com>"]
+readme = "README.md"
+repository = "https://github.com/rowlul/keeb"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.0.23", features = ["derive"] }
+rdev = { version = "0.5.2", features = ["serialize"] }
+toml = "0.5.9"
+serde = { version = "1.0.147", features = ["derive"] }
+device_query = "1.1.1"
+dirs = "4.0.0"
+anyhow = "1.0.66"
